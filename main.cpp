@@ -113,7 +113,6 @@ void connect_mqttServer() {
     Serial.print("Attempting MQTT connection...");
     String clientId = "ESP_CAR2";   // Create a random client ID
     clientId += String(random(0xffff), HEX);
-    // Attempt to connect
     if (client.connect(clientId.c_str(), mqtt_username, mqtt_password)) {
       Serial.println("connected");
 
@@ -288,5 +287,5 @@ void loop() {
   client.loop();
   checkDistanceAndStop();
   watch_dog();
-  delay(50);
+  delay(250);
 }
