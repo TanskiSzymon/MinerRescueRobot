@@ -1,5 +1,6 @@
 # MinerRescueRobot
 
+Project completed by a 3-person team. Below is the part executed by me.
 The primary objective of this robot is to locate trapped miners within mines and assess their vital signs. Currently, we are in the initial phase of the project, focusing on designing the control and communication systems between the ESP32 and Raspberry Pi 4B. We are employing a 3D scanner for spatial mapping to enable the robot to effectively avoid obstacles.
 
 ![345442623_596363659226548_5574684726053608709_n](https://user-images.githubusercontent.com/108231030/236816923-096782c1-2d0f-4b82-b13f-038ab44de99b.jpg)
